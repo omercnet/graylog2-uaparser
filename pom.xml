@@ -7,7 +7,7 @@
 
     <groupId>com.omercnet.graylog2</groupId>
     <artifactId>graylog-plugin-function-uaparser</artifactId>
-    <version>1.1.0</version>
+    <version>1.1.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>${project.artifactId}</name>
@@ -25,7 +25,7 @@
         <connection>scm:git:git@github.com:ahmedsajid/graylog2-uaparser.git</connection>
         <developerConnection>scm:git:git@github.com:ahmedsajid/graylog2-uaparser.git</developerConnection>
         <url>https://github.com/ahmedsajid/graylog2-uaparser</url>
-        <tag>1.1.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <properties>
