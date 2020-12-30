@@ -22,9 +22,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git@github.com:omercnet/graylog2-uaparser.git</connection>
-        <developerConnection>scm:git:git@github.com:omercnet/graylog2-uaparser.git</developerConnection>
-        <url>https://github.com/omercnet/graylog2-uaparser</url>
+        <connection>scm:git:git@github.com:ahmedsajid/graylog2-uaparser.git</connection>
+        <developerConnection>scm:git:git@github.com:ahmedsajid/graylog2-uaparser.git</developerConnection>
+        <url>https://github.com/ahmedsajid/graylog2-uaparser</url>
         <tag>HEAD</tag>
     </scm>
 
