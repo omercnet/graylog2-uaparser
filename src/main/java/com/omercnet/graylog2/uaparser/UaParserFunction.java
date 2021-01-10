@@ -21,12 +21,8 @@ public class UaParserFunction implements Function<Client> {
     public Client evaluate(FunctionArgs functionArgs, EvaluationContext evaluationContext) {
         String uaString = valueParam.required(functionArgs, evaluationContext);
         Client c;
-        try {
-            Parser uaParser = new Parser();
-             c = uaParser.parse(uaString);
-        } catch (IOException e) {
-            c = null;
-        }
+        Parser uaParser = new Parser();
+        c = uaParser.parse(uaString);
         return c;
     }
 
